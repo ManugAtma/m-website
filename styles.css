@@ -3,6 +3,8 @@ body {
     padding: 0;
     background-color: darkkhaki;
     height: 1000px;
+    background-image: url(https://img.freepik.com/free-photo/vintage-wallpaper-background_53876-138063.jpg?t=st=1726861017~exp=1726864617~hmac=947d6fd3296e31a054c4092dcedaea7985aaa0876e48adda587203474f9ad243&w=1380);
+    background-size: cover;
 }
 
 /* ul {
@@ -11,19 +13,38 @@ body {
 } */
 
 .main {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 50%;
     margin-top: 100px;
     /* background-color: brown; */
 }
 
 #pic-container {
-    margin-top: 70px;
-    background: white;
+    margin-top: 100px;
+    /* background: brown; */
 }
 
-img {
+.pic-under-nav {
     width: 1000px;
+}
+
+b {
+    color: #E57373;
+}
+
+#mail-icon {
+    font-size: 20px;
+    /* color: #E57373; */
+}
+
+/* #logo-icon {
+    border: 1px solid #E57373;
+    border-radius: 10px;
+} */
+
+span {
+    font-size: 20px;
+    /* color: #E57373; */
 }
 
 #contact-container {
