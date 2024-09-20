@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkkhaki;
+    height: 1000px;
+}
+
+/* ul {
+    border: 1px solid black;
+    width: 80%;
+} */
+
+.main {
+    border: 1px solid black;
+    height: 50%;
+    margin-top: 100px;
+    /* background-color: brown; */
+}
+
+img {
+    width: 1000px;
+    margin-top: 60px;
+}
+
+#contact-container {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .pic-under-nav {
+        display: none;
+    }
+
+    #contact-container {
+        margin-top: 70px
+    }
+}
