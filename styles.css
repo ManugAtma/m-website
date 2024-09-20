@@ -17,16 +17,20 @@ body {
     /* background-color: brown; */
 }
 
+#pic-container {
+    margin-top: 70px;
+    background: white;
+}
+
 img {
     width: 1000px;
-    margin-top: 60px;
 }
 
 #contact-container {
     margin-top: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .pic-under-nav {
         display: none;
     }
