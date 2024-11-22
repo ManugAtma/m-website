@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: darkkhaki;
     background-image: url(background.jpg);
     background-size: cover;
 }
@@ -14,14 +13,20 @@ b {
     color: #E57373;
 }
 
-#mail-icon {
-    font-size: 20px;
+.contact-link {
+    color: black;
 }
 
 span {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 footer {
     color: gray;
 }
+
